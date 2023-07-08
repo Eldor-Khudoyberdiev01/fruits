@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.item{
+    background-color: lightslategrey;
+    margin-bottom: 50px;
+}
+.item nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: aliceblue;
+    font-style: 20px;
+    font-weight: 600;
+}
+.item h2{
+    color: aliceblue;
+}
